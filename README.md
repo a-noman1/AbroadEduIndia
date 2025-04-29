@@ -1,6 +1,12 @@
-# AbroadEduIndia
-It's a website made by me to help students in sorting and narrowing down the list of colleges sthey can go.
+🌍 AbroadEduIndia
+AbroadEduIndia is a website built by our team to assist students in exploring, sorting, and narrowing down their options for studying at colleges abroad.
 
-Disclaimer: DO NOT TRY TO RUN THE CODE, IT WON'T WORK FOR NOW. STAY TUNED FOR THE UPDATES.
+⚠️ Disclaimer
+Please do not try to run the code directly from this repository.
+It is currently a work-in-progress and not fully functional in its current state. Stay tuned for upcoming updates!
 
-Note: For now I have dumped all my work in one place, I haven't maintained it for now. Some of the photos and videos are not present.
+If you're interested in checking out the live version, it's already deployed!
+👉 Visit the website: https://abroadeduindia.netlify.app/
+
+📝 Note
+At this stage, I’ve uploaded all my work in one place without organizing it yet. Some images and videos used in the project may also be missing for now. Proper folder structure and resource management will be added soon.
