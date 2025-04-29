@@ -1,0 +1,214 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background: linear-gradient(); */
+    /* background: linear-gradient(135deg, #4a90e2, #662d91, #1c2b3a); */
+
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.login-part {
+    /* background: linear-gradient(135deg, #4a90e2, #662d91, #1c2b3a); */
+    padding: 5vw;
+}
+
+.top-logo {
+    display: block;
+    margin: 0 auto;
+    /* padding-top: 10vw; */
+}
+
+.create-box {
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #eeeff1;
+    width: 400px;
+    height: 490px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.heading1 {
+    /* font-family: 'Winky Sans'; */
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: #C68EFD;
+}
+
+.usr-input {
+    font-size: 25px;
+    /* color: rgb(10, 10, 10); */
+    margin-top: 20px;
+    padding: 13px;
+    width: 99%;
+    border-radius: 5px;
+    border: 2px solid rgb(184, 179, 179);
+    color: #1a1a1a;
+}
+
+.btn-login {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px;
+    width: 106%;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #5e1791;
+    color: #5e1791;
+    background-color: transparent;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+    border: 3px solid black;
+    color: black;
+}
+
+.heading2 {
+    margin: 15px;
+    color: #8F87F1;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.sign-google {
+    background-color: transparent;
+    width: 106%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #5e1791;
+    color: #5e1791;
+    text-decoration: none;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-google:hover {
+    cursor: pointer;
+    border: 3px solid black;
+    color: black;
+}
+
+.sign-micro {
+    background-color: transparent;
+    border: 3px solid #5e1791;
+    color: #5e1791;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106%;
+    margin-bottom: 10px;
+}
+
+.sign-micro:hover {
+    cursor: pointer;
+    border: 3px solid black;
+    color: black;
+}
+
+.img-google {
+    padding-left: 30px;
+}
+
+.img-micro {
+    padding-left: 15px;
+}
+
+.forgot-back {
+    color: #ca2f68;
+    /* padding-bottom: 190px; */
+    font-size: 20px;
+    /* color: #662d91; */
+}
+
+.forgot-back:hover{
+    color: #88304E;
+    /* text-decoration: none; */
+}
+
+.dot {
+    color: #ca2f68;
+}
+
+footer {
+    padding: 50px;
+    background-color: #8F87F1;
+    /* margin-top: 40px; */
+}
+
+.heading3 {
+    color: antiquewhite;
+    font-size: 12px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.our-mission {
+    margin-top: 10px;
+    color: antiquewhite;
+    font-size: 25px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.privacy-terms {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.privacy {
+    color: #9e0101;
+    font-size: 20px;
+}
+
+.terms {
+    color: #9e0101;
+    font-size: 20px;
+}
+
+.heading4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #faebd7;
+}
+
+.social-media {
+    margin-top: 10px;
+    display: flex;
+    /* margin-left: auto; */
+    justify-content: flex-end;
+    gap: 15px;
+    margin-right: 7px;
+}
+
+.footer-logo {
+    display: flex;
+    margin-top: -100px;
+}

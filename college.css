@@ -1,0 +1,165 @@
+*{
+    /* background-color: #EBE8DB; */
+    /* background-color: #ffffff; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EBE8DB;
+}
+.main-heading{
+    text-align: center;
+    margin: 25px;
+    color: #328E6E;
+    font-size: 3.5vw;
+    margin-bottom: 4vw;
+    text-transform: uppercase;
+}
+.container{
+    /* height: 100%; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    /* padding: 2vw; */
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 3vw;
+}
+.card{
+    width: 23vw;
+    height: 20vw;
+    border: 3px solid #E9A5F1;
+    overflow: hidden; /* part of the content was leaking so border was broken*/
+    border-radius: 15px;
+    perspective: 5000px; /* Hey browser, act like the viewer's eyes are 1000px away from the element — so 3D rotation feels real. */
+}
+.card-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1.3s;
+    border-radius: 15px;
+    transform-style: preserve-3d; /* to make it look 3d and doesn't flatten the children card-front and card-back so that it doesn't become on top of each other */
+}
+.card:hover .card-inner{
+    transform: rotateY(180deg);
+}
+.card-front, .card-back{
+    position: absolute; /* to get stacked on each other */
+    width: 100%;
+    height: 100%;
+    top: 0; /* basically pointing out from where to start stacking */
+    left: 0; /* same */
+    backface-visibility: hidden;  /* it will not display other side */
+}
+.card-front{
+    background: #f5ece0;
+}
+.card-front img{
+    margin-top: 1.5vw;
+    margin-left: 4.6vw;
+    width: 13vw;
+    height: auto;
+    object-fit: cover; /* scales the image to fully cover its container, cropping if necessary to avoid empty space. */
+}
+.card-front p{
+    /* background: #FAF1E6; */
+    color: #1a1a1a;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 1.2vh;
+}
+.card-back{
+    background-color: #C68EFD;
+    transform: rotateY(180deg); /*if this is not usedn then the back of the card stays on top of the front and gets hidden." */
+}
+.card-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 103%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.explore-btn{
+    font-size: 2vw;
+    color: #5e1791;
+    border: 2px solid #5e1791;
+    background-color: transparent;
+    padding: 0.3vw 3vw;
+    border-radius: 1vw;
+}
+.explore-btn:hover{
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}
+footer {
+  padding: 50px;
+  background-color: #8F87F1;
+  /* margin-top: 40px; */
+}
+
+.heading5 {
+  color: antiquewhite;
+  font-size: 12px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.our-mission {
+  margin-top: 10px;
+  color: antiquewhite;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.privacy-terms {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.privacy {
+  color: #9e0101;
+  font-size: 20px;
+}
+
+.terms {
+  color: #9e0101;
+  font-size: 20px;
+}
+
+.heading6 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: #faebd7;
+}
+
+.social-media {
+  margin-top: 10px;
+  display: flex;
+  /* margin-left: auto; */
+  justify-content: flex-end;
+  gap: 15px;
+  margin-right: 7px;
+}
+
+.footer-logo {
+  display: flex;
+  margin-top: -100px;
+}

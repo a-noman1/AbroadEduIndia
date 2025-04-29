@@ -1,0 +1,207 @@
+* {
+    font-family: sans-serif;
+    /* padding: 0; */
+    margin: 0;
+}
+
+body {
+    background-color: #e5e4df;
+}
+
+.clg-name {
+    color: #328E6E;
+    text-align: center;
+    margin: 30px;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.heading1 {
+    color: #C68EFD;
+    margin-left: 15vw;
+    font-size: 25px;
+    margin-top: 1.4vw;
+    margin-bottom: 0.7vw;
+}
+
+.para-liner {
+    margin-left: 15vw;
+    margin-bottom: 0.7vw;
+    margin-right: 15vw;
+    color: #06202B;
+    font-size: 18px;
+}
+
+.talk {
+    display: flex;
+    padding: 20px;
+    background-color: #dd85e7;
+    width: auto;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    height: fit-content;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 20px;
+}
+
+.image-talk {
+    width: 140px;
+    height: auto;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.heading2 {
+    color: white;
+    margin-top: 20px;
+    font-size: 2.1vw;
+    margin-left: 10px;
+}
+
+.btn-do-it {
+    margin-left: 30vw;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #5e1791;
+    border: 2px solid #5e1791;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px 18px;
+}
+
+.btn-do-it:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+}
+
+table,
+td,
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    /* text-align: start; */
+    padding: 30px;
+    /* margin don't work because table cells are locked into grid */
+    padding-right: 130px;
+}
+
+th{
+    text-align: start;
+    padding: 30px;
+    padding-right: 50px;
+}
+
+.table-link{
+    text-decoration: none;
+    color: #ca2f68;
+}
+
+.table-link:hover{
+    color: #88304E;
+}
+
+.finance {
+    background-color: #d98ea9;
+    width: auto;
+    height: auto;
+    margin: 2vw 15vw;
+    padding: 25px 25px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    border-radius: 20px;
+}
+
+.heading3 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.des-fin {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-contactUs {
+    margin-left: 40vw;
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 5px 15px;
+    border: 2px solid #5e1791;
+    background-color: transparent;
+    color: #5e1791;
+    border-radius: 10px;
+}
+
+.btn-contactUs:hover {
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #8F87F1;
+    /* margin-top: 40px; */
+}
+
+.heading5 {
+    color: antiquewhite;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.our-mission {
+    margin-top: 10px;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.privacy-terms {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.privacy {
+    color: #9e0101;
+    font-size: 20px;
+}
+
+.terms {
+    color: #9e0101;
+    font-size: 20px;
+}
+
+.heading6 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #faebd7;
+}
+
+.social-media {
+    margin-top: 10px;
+    display: flex;
+    /* margin-left: auto; */
+    justify-content: flex-end;
+    gap: 15px;
+    margin-right: 7px;
+}
+
+.footer-logo {
+    display: flex;
+    margin-top: -100px;
+}
